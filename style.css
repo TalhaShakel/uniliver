@@ -13,9 +13,20 @@ body {
     align-items: center;
     justify-content: center;
 }
+.uni{
+    padding-left: 70%;
+    height: 50px;
+}
+.unilog{
+    /* padding-left: 70%; */
+    height: 50px;
+}
+/* .unilog{
+    height: 20px;
 
+} */
 .content {
-    width: 100%;
+    /* width: 100%; */
     /* position: absolute; */
     /* top: 50%; */
     /* transform: translateY(-50%); */
