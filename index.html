@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+   <div class="numPan">
+       <div class="flex content">
+           <h2>
+               Enter Your <br>
+               mobile number
+           </h2>
+       </div>
+       <div class="flex disp">
+           <input type="text" placeholder="0300 8293355"    >
+       </div>
+       <div class="flex r r1">
+           <div><span>1</span></div>
+           <div><span>2</span></div>
+           <div><span>3</span></div>
+
+        </div>
+       <div class="flex r r2" >
+        <div><span>4</span></div>
+        <div><span>5</span></div>
+        <div><span>6</span></div>
+
+       </div>
+       <div class="flex r r3">
+        <div><span>7</span></div>
+        <div><span>8</span></div>
+        <div><span>9</span></div>
+
+       </div>
+       <div class="flex r r4" >
+        <!-- <div><span></span></div> -->
+        <div><span>0</span></div>
+       </div>
+       <div class="flex proceed">
+           <button type="button"> proceed </button>
+       </div>
+       <div class="flex back">
+        <button type="button"> Go back </button>
+    </div>
+       
+
+   </div>
+
+<script>
+    var btn = document.querySelectorAll(".r > div");
+    var inp = document.querySelector("input");
+    btn.forEach(val => {
+        val.addEventListener("click",()=>{
+            inp.value+=val.innerText;
+        })
+        
+    });
+</script>
+    <!-- <p>Click below to get details about the learning content...</p></br></br>
+<button id = "button1" value = "1" onclick = "demo1()">1</button>
+<button id = "button2" value = "2" onclick = "demo2()">2</button>
+<button id = "button3" value = "3" onclick = "demo3()">3</button>
+<button id = "button4" value = "4" onclick = "demo4()">4</button>
+
+<button id = "button5" value = "5" onclick = "demo5()">5</button>
+<button id = "button6" value = "6" onclick = "demo6()">6</button>
+<button id = "button7" value = "7" onclick = "demo7()">7</button>
+<button id = "button8" value = "8" onclick = "demo8()">8</button>
+<button id = "button9" value = "9" onclick = "demo9()">9</button>
+<button id = "button0" value = "0" onclick = "demo0()">0</button>
+
+<p id = "myid1"></p><p id = "myid2"></p><p id = "myid3"></p><p id = "myid4"></p>
+<p id = "myid5"></p><p id = "myid6"></p><p id = "myid7"></p><p id = "myid8"></p>
+<p id = "myid9"></p><p id = "myid0"></p>
+
+<script>
+    function demo1() {
+       var val1 = document.getElementById("button1").value;
+       document.getElementById("myid1").innerHTML = val1;
+    }
+    function demo2() {
+       var val1 = document.getElementById("button2").value;
+       document.getElementById("myid2").innerHTML = val1;
+    }
+    function demo3() {
+       var val1 = document.getElementById("button3").value;
+       document.getElementById("myid3").innerHTML = val1;
+    }
+    function demo4() {
+       var val1 = document.getElementById("button4").value;
+       document.getElementById("myid4").innerHTML = val1;
+    }
+    function demo5() {
+       var val1 = document.getElementById("button5").value;
+       document.getElementById("myid5").innerHTML = val1;
+    }
+    function demo6() {
+       var val1 = document.getElementById("button6").value;
+       document.getElementById("myid6").innerHTML = val1;
+    }
+    function demo7() {
+       var val1 = document.getElementById("button7").value;
+       document.getElementById("myid7").innerHTML = val1;
+    }
+    function demo8() {
+       var val1 = document.getElementById("button8").value;
+       document.getElementById("myid8").innerHTML = val1;
+    }
+    function demo9() {
+       var val1 = document.getElementById("button9").value;
+       document.getElementById("myid9").innerHTML = val1;
+    }
+    function demo0() {
+       var val1 = document.getElementById("button0").value;
+       document.getElementById("myid0").innerHTML = val1;
+    }
+ </script> -->
+</body>
+</html>

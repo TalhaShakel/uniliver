@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 71%/1.5 Verdana, Sans-Serif;
+    background: #fff;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+    width: 100%;
+    color: #166D70;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.numPan>.r div {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #666;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+    background-color: #166D70;
+    cursor: pointer;
+}
+
+.disp input {
+    /* border-bottom: ; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px dashed #22a8a1;
+    outline: none;
+    background: none;
+    text-align: center;
+    width: 210px;
+    padding: 10px;
+    font-size: 2em;
+    color: #166D70;
+}
+
+.disp input::placeholder {
+    color: #22a8a1;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+
+
+.proceed button {
+
+    display: inline-block;
+    background-color: #166D70;
+    border-radius: 10px;
+    border:  #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px;
+    width: 250px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.back button {
+
+    display: inline-block;
+    background-color: #22a8a1;
+    border-radius: 10px;
+    border:  #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px;
+    width: 250px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* .numPan  .disp{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+   
+} */
