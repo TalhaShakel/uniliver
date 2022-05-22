@@ -13,18 +13,29 @@ body {
     align-items: center;
     justify-content: center;
 }
-.uni{
-    padding-left: 70%;
-    height: 50px;
-}
-.unilog{
-    /* padding-left: 70%; */
-    height: 50px;
-}
-/* .unilog{
-    height: 20px;
 
-} */
+.unilog{
+    padding-bottom: 5%;
+    height: 20px;
+}
+.uni{
+    padding-left: 20%;
+    height: 50px;
+}
+.uni1{
+    height: 50px;
+
+}
+.logo{
+    
+    /* display: ; */
+    /* float:left;  */
+    padding-top:5% ;
+    padding-bottom:5% ;
+}
+.logo p{
+    padding-top: 10px;
+}
 .content {
     /* width: 100%; */
     /* position: absolute; */
@@ -49,6 +60,9 @@ body {
     color: white;
     background-color: #166D70;
     cursor: pointer;
+}
+.numPan>.r4 div{
+    margin-right:48px ;
 }
 
 .disp input {
