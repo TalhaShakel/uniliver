@@ -61,8 +61,8 @@ body {
     background-color: #166D70;
     cursor: pointer;
 }
-.numPan>.r4 div{
-    margin-right:48px ;
+.numPan>.r4 .poka{
+    margin-right:22% ;
 }
 
 .disp input {
